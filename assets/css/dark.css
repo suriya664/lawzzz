@@ -1,0 +1,94 @@
+/* ===========================================
+   Dark Theme Stylesheet
+   =========================================== */
+
+[data-theme="dark"] {
+    --primary-color: #4a90e2;
+    --secondary-color: #f5c842;
+    --dark-color: #e0e0e0;
+    --light-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --text-light: #b0b0b0;
+    --border-color: #333333;
+    --white: #121212;
+    --shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] body {
+    background-color: var(--white);
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .header {
+    background: #1a1a1a;
+    border-bottom: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .card {
+    background: #1e1e1e;
+    border-color: var(--border-color);
+}
+
+[data-theme="dark"] .form-control {
+    background: #1e1e1e;
+    border-color: var(--border-color);
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .form-control:focus {
+    background: #1e1e1e;
+    border-color: var(--primary-color);
+}
+
+[data-theme="dark"] .testimonials {
+    background: #1a1a1a;
+}
+
+[data-theme="dark"] .breadcrumb {
+    background: #1a1a1a;
+}
+
+[data-theme="dark"] .practice-item,
+[data-theme="dark"] .attorney-card {
+    background: #1e1e1e;
+}
+
+[data-theme="dark"] .preloader {
+    background: #121212;
+}
+
+[data-theme="dark"] .footer {
+    background: #1a1a1a;
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .footer-section h4 {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .footer-section p,
+[data-theme="dark"] .footer-section a {
+    color: var(--text-light);
+}
+
+[data-theme="dark"] .footer-section a:hover {
+    color: var(--secondary-color);
+}
+
+[data-theme="dark"] .footer-social a {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-light);
+}
+
+[data-theme="dark"] .footer-bottom a {
+    color: var(--primary-color);
+}
+
+[data-theme="dark"] .footer-bottom a:hover {
+    color: var(--secondary-color);
+}

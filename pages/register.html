@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - LawFirm Pro</title>
+    <meta name="description" content="Create a new account with LawFirm Pro.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="../assets/img/icons/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="../assets/img/icons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/icons/favicon-16x16.png">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/dark.css">
+    <link rel="stylesheet" href="../assets/css/animations.css">
+</head>
+<body>
+    <div id="preloader-placeholder"></div>
+    <!-- Auth Header -->
+    <div class="auth-header">
+        <div class="container">
+            <a href="index.html" class="auth-logo">LawFirm Pro</a>
+        </div>
+    </div>
+
+    <!-- Register Section -->
+    <section class="section auth-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8 auth-card">
+                    <div class="card" data-aos="fade-up">
+                        <div class="card-body">
+                            <div class="text-center mb-4">
+                                <h1 class="logo" style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--primary-color);">LawFirm Pro</h1>
+                            </div>
+                            <h2 class="text-center mb-4">Create an Account</h2>
+                            <p class="text-center text-muted mb-4">Fill in your information to get started</p>
+                            
+                            <form id="register-form">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group mb-3">
+                                            <label class="form-label">First Name *</label>
+                                            <input type="text" class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group mb-3">
+                                            <label class="form-label">Last Name *</label>
+                                            <input type="text" class="form-control" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group mb-3">
+                                    <label class="form-label">Email Address *</label>
+                                    <input type="email" class="form-control" required>
+                                </div>
+                                
+                                <div class="form-group mb-3">
+                                    <label class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control">
+                                </div>
+                                
+                                <div class="form-group mb-3">
+                                    <label class="form-label">Password *</label>
+                                    <input type="password" class="form-control" required>
+                                    <small class="text-muted">Must be at least 8 characters</small>
+                                </div>
+                                
+                                <div class="form-group mb-3">
+                                    <label class="form-label">Confirm Password *</label>
+                                    <input type="password" class="form-control" required>
+                                </div>
+                                
+                                <div class="form-check mb-4">
+                                    <input type="checkbox" class="form-check-input" id="terms" required>
+                                    <label class="form-check-label" for="terms">
+                                        I agree to the <a href="terms.html" class="text-primary">Terms & Conditions</a> and <a href="privacy-policy.html" class="text-primary">Privacy Policy</a>
+                                    </label>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary w-100 mb-3">Create Account</button>
+                                
+                                <div class="text-center">
+                                    <p class="mb-0">Already have an account? <a href="login.html" class="text-primary">Login here</a></p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>LawFirm Pro</h4>
+                    <p>We provide comprehensive legal services with a commitment to excellence, integrity, and client satisfaction. Your trusted partner in legal matters.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="practice-areas.html">Practice Areas</a>
+                    <a href="attorneys.html">Our Attorneys</a>
+                    <a href="case-studies.html">Case Studies</a>
+                    <a href="blog.html">Blog</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Practice Areas</h4>
+                    <a href="practice-areas.html">Criminal Law</a>
+                    <a href="practice-areas.html">Family Law</a>
+                    <a href="practice-areas.html">Corporate Law</a>
+                    <a href="practice-areas.html">Real Estate Law</a>
+                    <a href="practice-areas.html">Personal Injury</a>
+                    <a href="practice-areas.html">Employment Law</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact-info">
+                        <p><i class="fa fa-map-marker"></i> 123 Anna Salai, Mount Road, Chennai, Tamil Nadu 600002, India</p>
+                        <p><i class="fa fa-phone"></i> +91 (44) 2345-6789</p>
+                        <p><i class="fa fa-envelope"></i> info@lawfirmpro.com</p>
+                        <p><i class="fa fa-clock-o"></i> Mon-Fri: 9:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 LawFirm Pro. All rights reserved. | <a href="privacy-policy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="modals-placeholder"></div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/ajax.js"></script>
+    <script src="../assets/js/plugins.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#preloader-placeholder').load('../partials/preloader.html');
+            $('#modals-placeholder').load('../partials/modals.html');
+            
+            $('#register-form').on('submit', function(e) {
+                e.preventDefault();
+                // Registration form submission logic would go here
+                alert('Registration functionality would be implemented here.');
+            });
+        });
+    </script>
+</body>
+</html>
